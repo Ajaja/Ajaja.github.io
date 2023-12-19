@@ -1,0 +1,169 @@
+# HP-42S skin for Plus42
+# Created by Tyge Løvset, April 2017.
+# Based on style from Nova1 skins by Andrew Novinc.
+# Two rows of keys added by Thomas Okken.
+
+Skin: 0,0,640,986
+Display: 34,70 4 6 b9bfae 242A26
+DisplayExpansionZone: 125 130
+DisplaySize: 24,2 -1 6 24
+Flags: 7
+
+Annunciator: 1 60,40,30,26 690,94
+Annunciator: 2 92,40,52,26 722,94
+Annunciator: 3 148,40,44,26 778,94
+Annunciator: 4 200,40,26,26 830,94
+Annunciator: 5 230,40,40,26 860,94
+Annunciator: 6 278,40,15,26 908,94
+Annunciator: 7 292,40,38,26 922,94
+
+Key: 38,39 0,211,117,106 25,239,82,62 647,239
+Key: 40,41 117,211,102,106 127,239,82,62 749,239
+Key: 42,43 219,211,102,106 229,239,82,62 851,239
+Key: 44,45 321,211,102,106 331,239,82,62 953,239
+Key: 46,47 423,211,102,106 433,239,82,62 1055,239
+Key: 48,49 525,211,117,106 535,239,82,62 1157,239
+
+Key: 50,51 0,305,117,106 25,333,82,62 647,333
+Key: 52,53 117,305,102,106 127,333,82,62 749,333
+Key: 54,55 219,305,102,106 229,333,82,62 851,333
+Key: 56,57 321,305,102,106 331,333,82,62 953,333
+Key: 58,59 423,305,102,106 433,333,82,62 1055,333
+Key: 60,61 525,305,117,106 535,333,82,62 1157,333
+
+Key: 7 0,399,117,106 25,427,82,62 647,427
+Key: 8 117,399,102,106 127,427,82,62 749,427
+Key: 9 219,399,102,106 229,427,82,62 851,427
+Key: 10 321,399,102,106 331,427,82,62 953,427
+Key: 11 423,399,102,106 433,427,82,62 1055,427
+Key: 12 525,399,117,106 535,427,82,62 1157,427
+
+Key: 13 0,493,219,106 25,521,184,62 647,521
+Key: 14 219,493,102,106 229,521,82,62 851,521
+Key: 15 321,493,102,106 331,521,82,62 953,521
+Key: 16 423,493,102,106 433,521,82,62 1055,521
+Key: 17 525,493,117,106 535,521,82,62 1157,521
+
+Key: 18 0,589,128,105 25,617,82,62 647,617
+Key: 19 131,589,124,105 141,617,104,62 763,617
+Key: 20 255,589,124,105 265,617,104,62 887,617
+Key: 21 379,589,124,105 389,617,104,62 1011,617
+Key: 22 503,589,139,105 513,617,104,62 1135,617
+
+Key: 23 0,682,128,105 25,710,82,62 647,710
+Key: 24 131,682,124,105 141,710,104,62 763,710
+Key: 25 255,682,124,105 265,710,104,62 887,710
+Key: 26 379,682,124,105 389,710,104,62 1011,710
+Key: 27 503,682,139,105 513,710,104,62 1135,710
+
+Key: 28 0,775,128,105 25,803,82,62 647,803
+Key: 29 131,775,124,105 141,803,104,62 763,803
+Key: 30 255,775,124,105 265,803,104,62 887,803
+Key: 31 379,775,124,105 389,803,104,62 1011,803
+Key: 32 503,775,139,105 513,803,104,62 1135,803
+
+Key: 33 0,868,128,131 25,896,82,62 647,896
+Key: 34 131,868,124,131 141,896,104,62 763,896
+Key: 35 255,868,124,131 265,896,104,62 887,896
+Key: 36 379,868,124,131 389,896,104,62 1011,896
+Key: 37 503,868,139,131 513,896,104,62 1135,896
+
+AltBkgd: 1 654,2,192,84 224,503
+AltBkgd: 1 870,2,112,86 260,877
+AltBkgd: 1 1108,4,120,84 374,879
+AltBkgd: 2 654,2,192,84 224,503
+AltBkgd: 2 996,4,234,84 262,879
+
+AltKey: 1 14 658,132
+AltKey: 1 15 760,132
+AltKey: 1 36 1124,132
+AltKey: 2 14 658,132
+AltKey: 2 15 760,132
+AltKey: 2 35 1000,132
+AltKey: 2 36 1124,132
+
+Macro: 38 "DIRS"
+Macro: 39 "DIR.FCN"
+Macro: 40 "UNITS"
+Macro: 41 "UNIT.FCN"
+Macro: 42 "R^"
+Macro: 43 "PLOT.M"
+Macro: 44 "X<>"
+Macro: 45 "%CH"
+Macro: 46 "VIEW"
+Macro: 47 "SST^"
+Macro: 48 "EQN"
+Macro: 49 "EQN.FCN"
+
+Macro: 50 "Σ+"
+Macro: 51 "Σ-"
+Macro: 52 "1/X"
+Macro: 53 "Y^X"
+Macro: 54 "SQRT"
+Macro: 55 "X^2"
+Macro: 56 "LOG"
+Macro: 57 "10^X"
+Macro: 58 "LN"
+Macro: 59 "E^X"
+Macro: 60 "XEQ"
+Macro: 61 "GTO"
+
+WinKey: 65 : 50
+WinKey: Shift 65 : 51
+WinKey: CShift 65 : 51
+WinKey: 86 : 52
+WinKey: Shift 86 : 53
+WinKey: CShift 86 : 53
+WinKey: 81 : 54
+WinKey: Shift 81 : 55
+WinKey: CShift 81 : 55
+WinKey: 79 : 56
+WinKey: Shift 79 : 57
+WinKey: CShift 79 : 57
+WinKey: 76 : 58
+WinKey: Shift 76 : 59
+WinKey: CShift 76 : 59
+WinKey: 88 : 60
+WinKey: Shift 88 : 61
+WinKey: CShift 88 : 61
+WinKey: 71 : 61
+
+MacKey: a : 50
+MacKey: A : 51
+MacKey: CShift a : 51
+MacKey: v : 52
+MacKey: V : 53
+MacKey: CShift v : 53
+MacKey: q : 54
+MacKey: Q : 55
+MacKey: CShift q : 55
+MacKey: o : 56
+MacKey: O : 57
+MacKey: CShift o : 57
+MacKey: l : 58
+MacKey: L : 59
+MacKey: CShift l : 59
+MacKey: x : 60
+MacKey: X : 61
+MacKey: CShift x : 61
+MacKey: g : 61
+
+GtkKey: a : 50
+GtkKey: A : 51
+GtkKey: CShift a : 51
+GtkKey: v : 52
+GtkKey: V : 53
+GtkKey: CShift v : 53
+GtkKey: q : 54
+GtkKey: Q : 55
+GtkKey: CShift q : 55
+GtkKey: o : 56
+GtkKey: O : 57
+GtkKey: CShift o : 57
+GtkKey: l : 58
+GtkKey: L : 59
+GtkKey: CShift l : 59
+GtkKey: x : 60
+GtkKey: X : 61
+GtkKey: CShift x : 61
+GtkKey: g : 61
